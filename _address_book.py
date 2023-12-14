@@ -54,7 +54,7 @@ class AddressBook:
             if user.birthday == None:
                 exit
             else:
-                birthday = user.birthday
+                birthday = str(user.birthday)
                 date_parts = birthday.split('.')
                 birthday = datetime(int(date_parts[2]), int(date_parts[1]), int(date_parts[0]))
                 birthday = birthday.date()

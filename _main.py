@@ -11,6 +11,7 @@ def main():
         print(result)
         if result == "Good bye!":
             break
-            
+
+# client code to start program / bot (entry point)      
 if __name__ == "__main__":
     main()
