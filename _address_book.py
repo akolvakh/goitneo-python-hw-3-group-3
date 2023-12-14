@@ -23,7 +23,6 @@ class AddressBook:
             pickle.dump(self.data, file)
     
     def add_record(self, record):
-        #     self.data[record.name.value] = record
         # Check if the name of the record already exists in self.data
         if record.name.value not in self.data:
             # If it doesn't exist, add the record
